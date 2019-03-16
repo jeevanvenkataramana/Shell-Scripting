@@ -1,0 +1,81 @@
+root         1     0  0 Mar03 ?        00:00:16 /lib/systemd/systemd --system --deserialize 34
+root         2     0  0 Mar03 ?        00:00:00 [kthreadd]
+root         4     2  0 Mar03 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 Mar03 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 Mar03 ?        00:00:02 [ksoftirqd/0]
+root         8     2  0 Mar03 ?        00:00:03 [rcu_sched]
+root         9     2  0 Mar03 ?        00:00:00 [rcu_bh]
+root        10     2  0 Mar03 ?        00:00:00 [migration/0]
+root        11     2  0 Mar03 ?        00:00:02 [watchdog/0]
+root        12     2  0 Mar03 ?        00:00:00 [cpuhp/0]
+root        13     2  0 Mar03 ?        00:00:00 [kdevtmpfs]
+root        14     2  0 Mar03 ?        00:00:00 [netns]
+root        15     2  0 Mar03 ?        00:00:00 [rcu_tasks_kthre]
+root        16     2  0 Mar03 ?        00:00:00 [kauditd]
+root        17     2  0 Mar03 ?        00:00:00 [xenbus]
+root        18     2  0 Mar03 ?        00:00:00 [xenwatch]
+root        20     2  0 Mar03 ?        00:00:00 [khungtaskd]
+root        21     2  0 Mar03 ?        00:00:00 [oom_reaper]
+root        22     2  0 Mar03 ?        00:00:00 [writeback]
+root        23     2  0 Mar03 ?        00:00:00 [kcompactd0]
+root        24     2  0 Mar03 ?        00:00:00 [ksmd]
+root        25     2  0 Mar03 ?        00:00:03 [khugepaged]
+root        26     2  0 Mar03 ?        00:00:00 [crypto]
+root        27     2  0 Mar03 ?        00:00:00 [kintegrityd]
+root        28     2  0 Mar03 ?        00:00:00 [kblockd]
+root        29     2  0 Mar03 ?        00:00:00 [ata_sff]
+root        30     2  0 Mar03 ?        00:00:00 [md]
+root        31     2  0 Mar03 ?        00:00:00 [edac-poller]
+root        32     2  0 Mar03 ?        00:00:00 [devfreq_wq]
+root        33     2  0 Mar03 ?        00:00:00 [watchdogd]
+root        36     2  0 Mar03 ?        00:00:03 [kswapd0]
+root        37     2  0 Mar03 ?        00:00:00 [ecryptfs-kthrea]
+root        79     2  0 Mar03 ?        00:00:00 [kthrotld]
+root        80     2  0 Mar03 ?        00:00:00 [nvme-wq]
+root        81     2  0 Mar03 ?        00:00:00 [scsi_eh_0]
+root        82     2  0 Mar03 ?        00:00:00 [scsi_tmf_0]
+root        83     2  0 Mar03 ?        00:00:00 [scsi_eh_1]
+root        84     2  0 Mar03 ?        00:00:00 [scsi_tmf_1]
+root        89     2  0 Mar03 ?        00:00:00 [ipv6_addrconf]
+root        99     2  0 Mar03 ?        00:00:00 [kstrp]
+root       100     2  0 Mar03 ?        00:00:02 [kworker/0:1H]
+root       277     2  0 Mar03 ?        00:00:00 [raid5wq]
+root       329     2  0 Mar03 ?        00:00:02 [jbd2/xvda1-8]
+root       330     2  0 Mar03 ?        00:00:00 [ext4-rsv-conver]
+root       392     2  0 Mar03 ?        00:00:00 [iscsi_eh]
+root       396     2  0 Mar03 ?        00:00:00 [ib-comp-wq]
+root       397     2  0 Mar03 ?        00:00:00 [ib_mcast]
+root       398     2  0 Mar03 ?        00:00:00 [ib_nl_sa_wq]
+root       404     2  0 Mar03 ?        00:00:00 [rdma_cm]
+root       412     1  0 Mar03 ?        00:00:00 /sbin/lvmetad -f
+root       698     1  0 Mar03 ?        00:00:03 /usr/bin/lxcfs /var/lib/lxcfs/
+root       707     1  0 Mar03 ?        00:00:01 /usr/sbin/cron -f
+root       708     1  0 Mar03 ?        00:00:13 /usr/lib/accountsservice/accounts-daemon
+root       719     1  0 Mar03 ?        00:00:01 /lib/systemd/systemd-logind
+root       775     1  0 Mar03 ttyS0    00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root       782     1  0 Mar03 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root       969     2  0 Mar03 ?        00:00:00 [loop0]
+root      1124     2  0 Mar03 ?        00:00:00 [loop1]
+root      1309     2  0 02:12 ?        00:00:00 [kworker/u30:2]
+root      1320  3515  0 02:19 ?        00:00:00 sshd: ubuntu [priv]
+root      1552     2  0 02:36 ?        00:00:00 [kworker/u30:0]
+root      1588     2  0 02:43 ?        00:00:00 [kworker/u30:1]
+ubuntu    1591  1589  0 02:44 pts/0    00:00:00 grep root
+root      2604     1  0 Mar03 ?        00:00:09 /lib/systemd/systemd-journald
+root      3515     1  0 Mar05 ?        00:00:03 /usr/sbin/sshd -D
+root      5670     1  0 Mar03 ?        00:00:02 /lib/systemd/systemd-udevd
+root     10455     2  0 Mar03 ?        00:00:00 [xfsalloc]
+root     10456     2  0 Mar03 ?        00:00:00 [xfs_mru_cache]
+root     11124     1  0 Mar03 ?        00:00:17 /sbin/iscsid
+root     11125     1  0 Mar03 ?        00:00:00 /sbin/iscsid
+root     11337     1  0 Mar03 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root     11630     1  0 Mar03 ?        00:00:01 /usr/lib/policykit-1/polkitd --no-debug
+root     16349     2  0 Mar12 ?        00:00:00 [loop4]
+root     16382     1  0 Mar12 ?        00:00:10 /usr/lib/snapd/snapd
+root     18554     1  0 Mar03 ?        00:13:42 /usr/bin/containerd
+root     19610     1  0 Mar03 ?        00:04:29 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root     24322     2  0 Mar03 ?        00:00:00 [loop2]
+root     24505     2  0 Mar03 ?        00:00:00 [loop3]
+root     24690     1  0 Mar03 ?        00:00:06 /snap/amazon-ssm-agent/1068/amazon-ssm-agent
+root     26757     2  0 Mar14 ?        00:00:00 [kworker/0:1]
+root     31687     2  0 Mar15 ?        00:00:00 [kworker/0:0]
